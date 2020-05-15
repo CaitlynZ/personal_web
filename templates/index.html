@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Caitlyn's Home</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="The home page of Caitlyn's personal page.">
+	<meta name="author" content="caitlyn zhang">
+	</header>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" defer></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" defer></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top shadow">
+			<div class="d-flex flex-grow-1 m-3 ml-5">
+				<a class="navbar-brand" href="#"><b class="h3" style="text-shadow: 2px 2px 0px cadetblue, 4px 4px 0px #888;">Caitlyn Zhang</b></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto flex-nowrap mr-5">
+					<li class="nav-item m-2 active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item m-2">
+						<a class="nav-link" href="/cv">CV</a>
+					</li>
+					<li class="nav-item m-2">
+						<a class="nav-link" href="#">Hire Me</Menu:c></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="container text-center border-bottom" style="margin-top:150px">
+			<div class="row">
+				<div class="col">
+					<img class="rounded-circle mt-5" src="/static/image/profile_pic.jpg" alt="profile picture"
+						style="width:150px">
+					<p class="m-5 h4 font-weight-light">Hello! I am <b>Caitlyn Zhang</b>. I am a <b>Computer Science</b>
+						student at the University of Waterloo and on the way to becoming a <b>web developer</b>.
+					</p>
+					<button type="button" class="btn btn-outline-info mb-5" style="border-radius:5em;">Hire
+						Me</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<h2 class="m-5 p-2 text-center">Related Skills</h2>
+			<div class="card m-4 p-4 mb-5 border-bottom">
+				<div class="m-3">
+					<h5 class="mx-1 my-2">HTML</h5>
+					<div class="progress" style="height:5px">
+						<div class="progress-bar bg-info" style="width:90%;height:5px;"><span
+								class="d-none">90%</span></div>
+					</div>
+				</div>
+				<div class="m-3">
+					<h5 class="mx-1 my-2">CSS</h5>
+					<div class="progress" style="height:5px">
+						<div class="progress-bar bg-info" style="width:70%;height:5px;"><span
+								class="d-none">70%</span></div>
+					</div>
+				</div>
+				<div class="m-3">
+					<h5 class="mx-1 my-2">JavaScript</h5>
+					<div class="progress" style="height:5px">
+						<div class="progress-bar bg-info" style="width:40%;height:5px;"><span
+								class="d-none">40%</span></div>
+					</div>
+				</div>
+				<div class="m-3">
+					<h5 class="mx-1 my-2">C</h5>
+					<div class="progress" style="height:5px">
+						<div class="progress-bar bg-info" style="width:80%;height:5px;"><span
+								class="d-none">80%</span></div>
+					</div>
+				</div>
+				<div class="m-3">
+					<h5 class="mx-1 my-2">Flask</h5>
+					<div class="progress" style="height:5px">
+						<div class="progress-bar bg-info" style="width:60%;height:5px;"><span
+								class="d-none">60%</span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<h2 class="m-5 p-2 text-center">Programs</h2>
+			<div class="row center mb-5">
+				<div class="card col-md-5 mx-auto my-2">
+					<div class="card-body">
+						<h4 class="card-title m-3">Simple Webpage</h4>
+						<img class="card-img-top my-2 rounded" src="/static/image/simple_web.jpg" alt="simple webpage">
+						<ul class="card-text my-2">
+							<li>Set up a web server and created a simple website using Flask, Python and
+								HTML/CSS/JavaScript
+							</li>
+							<li>The webpage is able to display dynamic personal media links and let user download the
+								resume
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="card col-md-5 mx-auto my-2">
+					<div class="card-body">
+						<h4 class="card-title m-3">Personal Website</h4>
+						<img class="card-img-top my-2" src="/static/image/personal_web.jpg" alt="personal website">
+						<ul class="card-text my-2">
+							<li>Set up a web server and created a simple website using Flask, Python and
+								HTML/CSS/JavaScript
+							</li>
+							<li>The webpage is able to display dynamic personal media links and let user download the
+								resume
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="bg-info text-center p-4">
+			<div class="container">
+				<a class="btn btn-link" href="#" style="color:#fff">About me</a>
+				<a class="btn btn-link" href="#" style="color:#fff">Contant me</a>
+			</div>
+			<div class="container">
+				<a class="btn btn-link" href="https://github.com/CaitlynZ/" target="_blank" style="color:#fff"><i class="fab fa-github"><span
+							class="d-none">github</span></i></a>
+				<a class="btn btn-link" href="https://www.instagram.com/caitlynz67/" target="_blank" style="color:#fff"><i class="fab fa-instagram"><span
+							class="d-none">instagram</span></i></a>
+				<a class="btn btn-link" href="https://www.linkedin.com/in/caitlynzhang" target="_blank" style="color:#fff"><i class="fab fa-linkedin-in"><span
+							class="d-none">linkedin</span></i></a>
+			</div>
+		</div>
+	</footer>
+</body>
