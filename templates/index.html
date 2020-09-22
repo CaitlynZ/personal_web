@@ -20,7 +20,8 @@
 	<header>
 		<nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top shadow">
 			<div class="d-flex flex-grow-1 m-3 ml-5">
-				<a class="navbar-brand" href="#"><b class="h3" style="text-shadow: 2px 2px 0px cadetblue, 4px 4px 0px #888;">Caitlyn Zhang</b></a>
+				<a class="navbar-brand" href="#"><b class="h3"
+						style="text-shadow: 2px 2px 0px cadetblue, 4px 4px 0px #888;">Caitlyn Zhang</b></a>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
@@ -31,11 +32,11 @@
 						<a class="nav-link" href="#">Home</a>
 					</li>
 					<li class="nav-item m-2">
-						<a class="nav-link" href="/cv">CV</a>
+						<a class="nav-link" href="/templates/cv.html">CV</a>
 					</li>
-					<li class="nav-item m-2">
+					<!-- <li class="nav-item m-2">
 						<a class="nav-link" href="#">Hire Me</Menu:c></a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</nav>
@@ -49,8 +50,10 @@
 					<p class="m-5 h4 font-weight-light">Hello! I am <b>Caitlyn Zhang</b>. I am a <b>Computer Science</b>
 						student at the University of Waterloo and on the way to becoming a <b>web developer</b>.
 					</p>
-					<button type="button" class="btn btn-outline-info mb-5" style="border-radius:5em;">Hire
-						Me</button>
+					<!-- <button type="button" class="btn btn-outline-info mb-5" style="border-radius:5em;">Hire
+						Me</button> -->
+					<br />
+					<br />
 				</div>
 			</div>
 		</section>
@@ -61,36 +64,44 @@
 				<div class="m-3">
 					<h5 class="mx-1 my-2">HTML</h5>
 					<div class="progress" style="height:5px">
-						<div class="progress-bar bg-info" style="width:90%;height:5px;"><span
-								class="d-none">90%</span></div>
+						<div class="progress-bar bg-info" style="width:90%;height:5px;"><span class="d-none">90%</span>
+						</div>
 					</div>
 				</div>
 				<div class="m-3">
 					<h5 class="mx-1 my-2">CSS</h5>
 					<div class="progress" style="height:5px">
-						<div class="progress-bar bg-info" style="width:70%;height:5px;"><span
-								class="d-none">70%</span></div>
+						<div class="progress-bar bg-info" style="width:70%;height:5px;"><span class="d-none">70%</span>
+						</div>
 					</div>
 				</div>
 				<div class="m-3">
 					<h5 class="mx-1 my-2">JavaScript</h5>
 					<div class="progress" style="height:5px">
-						<div class="progress-bar bg-info" style="width:40%;height:5px;"><span
-								class="d-none">40%</span></div>
+						<div class="progress-bar bg-info" style="width:60%;height:5px;"><span class="d-none">60%</span>
+						</div>
 					</div>
 				</div>
 				<div class="m-3">
-					<h5 class="mx-1 my-2">C</h5>
+					<h5 class="mx-1 my-2">C/C++</h5>
 					<div class="progress" style="height:5px">
-						<div class="progress-bar bg-info" style="width:80%;height:5px;"><span
-								class="d-none">80%</span></div>
+						<div class="progress-bar bg-info" style="width:80%;height:5px;"><span class="d-none">60%</span>
+						</div>
 					</div>
 				</div>
 				<div class="m-3">
 					<h5 class="mx-1 my-2">Flask</h5>
 					<div class="progress" style="height:5px">
-						<div class="progress-bar bg-info" style="width:60%;height:5px;"><span
-								class="d-none">60%</span></div>
+						<div class="progress-bar bg-info" style="width:40%;height:5px;"><span class="d-none">40%</span>
+						</div>
+					</div>
+				</div>
+				<div class="m-3">
+					<h5 class="mx-1 my-2">Wechat Mini-Program</h5>
+					<div class="progress" style="height:5px">
+						<div class="progress-bar bg-info" style="widows: 6px;0%;height:5px;"><span
+								class="d-none">60%</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -101,7 +112,7 @@
 			<div class="row center mb-5">
 				<div class="card col-md-5 mx-auto my-2">
 					<div class="card-body">
-						<h4 class="card-title m-3">Simple Webpage</h4>
+						<h4 class="card-title m-3"><a href="https://github.com/CaitlynZ/SimpleWebsiteProject" style="color:#000">Simple Webpage</a></h4>
 						<img class="card-img-top my-2 rounded" src="/static/image/simple_web.jpg" alt="simple webpage">
 						<ul class="card-text my-2">
 							<li>Set up a web server and created a simple website using Flask, Python and
@@ -115,7 +126,7 @@
 				</div>
 				<div class="card col-md-5 mx-auto my-2">
 					<div class="card-body">
-						<h4 class="card-title m-3">Personal Website</h4>
+						<h4 class="card-title m-3"><a href="https://github.com/CaitlynZ/personal_web" style="color:#000">Personal Website</a></h4>
 						<img class="card-img-top my-2" src="/static/image/personal_web.jpg" alt="personal website">
 						<ul class="card-text my-2">
 							<li>Set up a web server and created a simple website using Flask, Python and
@@ -127,23 +138,54 @@
 						</ul>
 					</div>
 				</div>
+				<div class="card col-md-5 mx-auto my-2">
+					<div class="card-body">
+						<h4 class="card-title m-3"><a href="https://github.com/CaitlynZ/weather-mini-program" style="color:#000"></a>Weather Mini-Program</h4>
+						<img class="card-img-top my-2 rounded" src="/static/image/weather_mini.jpg"
+							alt="weather mini program">
+						<ul class="card-text my-2">
+							<li>Designed and rendered a mini program to show the weather information of current or other
+								location in China using WXML/WXSS (refer to HTML/CSS)
+							</li>
+							<li>Utilized the third-party weather API bind with the region picker component to acquire
+								weather information and Wechat native API to get user’s current location
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="card col-md-5 mx-auto my-2">
+					<div class="card-body">
+						<h4 class="card-title m-3">Watopoly – Monopoly of UW</h4>
+						<img class="card-img-top my-2" src="/static/image/watopoly.jpg" alt="watopoly">
+						<ul class="card-text my-2">
+							<li>Organized more than 5 discussions to construct a solid object-oriented design using
+								Model-View-Controller design pattern with 21 classes according to the requirement and
+								visualized it using UML
+							</li>
+							<li>Constructed the real-time game board using Observer design pattern that contribute to
+								the View part of MVC design pattern, which is user friendly and easier for testing and
+								programmed all functional and building squares
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
 
 	<footer>
 		<div class="bg-info text-center p-4">
-			<div class="container">
+			<!-- <div class="container">
 				<a class="btn btn-link" href="#" style="color:#fff">About me</a>
 				<a class="btn btn-link" href="#" style="color:#fff">Contant me</a>
-			</div>
+			</div> -->
 			<div class="container">
-				<a class="btn btn-link" href="https://github.com/CaitlynZ/" target="_blank" style="color:#fff"><i class="fab fa-github"><span
-							class="d-none">github</span></i></a>
-				<a class="btn btn-link" href="https://www.instagram.com/caitlynz67/" target="_blank" style="color:#fff"><i class="fab fa-instagram"><span
-							class="d-none">instagram</span></i></a>
-				<a class="btn btn-link" href="https://www.linkedin.com/in/caitlynzhang" target="_blank" style="color:#fff"><i class="fab fa-linkedin-in"><span
-							class="d-none">linkedin</span></i></a>
+				<a class="btn btn-link" href="https://github.com/CaitlynZ/" target="_blank" style="color:#fff"><i
+						class="fab fa-github"><span>github</span></i></a>
+				<a class="btn btn-link" href="https://www.instagram.com/caitlynz67/" target="_blank"
+					style="color:#fff"><i class="fab fa-instagram"><span>instagram</span></i></a>
+				<a class="btn btn-link" href="https://www.linkedin.com/in/caitlynzhang" target="_blank"
+					style="color:#fff"><i class="fab fa-linkedin-in"><span>linkedin</span></i></a>
 			</div>
 		</div>
 	</footer>
